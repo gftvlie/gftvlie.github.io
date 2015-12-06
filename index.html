@@ -100,7 +100,7 @@
 					async:true,
 					dataType:"text",
 					error:function(){
-						$("#content").html('<h3>该页面可能还不存在哦～</h3><p>不信可以<a href="'+window.location.href+'">刷新</a>试一下~</p>');
+						$("#content").html('<h3>居然出现了错误，有些不可思议</h3><p>或者<a href="'+window.location.href+'">刷新</a>试一下~</p>');
 					},
 					success:function(markdownString){
 						// 将转换好的内容写入页面
@@ -162,10 +162,10 @@
 	</head>
 	<body>
 		<div id="header">
-			<h1><a href="index.html">Wiki in box</a></h1>
+			<h1><a href="index.html">立夏小正</a></h1>
 		</div> <!-- #header End -->
 		<div id="main" class="container">
-			<div class="row">
+			<div class="row"> 
 				<div class="col-md-8 col-md-offset-2">
 					<div id="content">
 						Loading……
